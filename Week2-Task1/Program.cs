@@ -70,27 +70,27 @@ void GetMessage (int choice)
     switch (choice)
     {
         case 0:
-            Console.Write("Goodbye");
+            Console.Write("Goodbye -> ");
             break;
 
         case 1:
-            Console.Write("Bonjour");
+            Console.Write("Bonjour -> ");
             break;
 
         case 2:
-            Console.Write("Ola");
+            Console.Write("Ola -> ");
             break;
 
         case 3:
-            Console.Write("Hallo");
+            Console.Write("Hallo -> ");
             break;
 
         case 4:
-            Console.Write("CIao");
+            Console.Write("Ciao -> ");
             break;
 
         default:
-            Console.Write("Please enter in a valid option");
+            Console.Write(" Please enter in a valid option ");
             break;
 
     }
